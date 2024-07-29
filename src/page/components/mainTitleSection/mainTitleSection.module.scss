@@ -1,0 +1,26 @@
+.titleSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .textBlock {
+    width: 819.51px;
+    padding-top: 89px;
+    padding-bottom: 89px;
+  }
+  .title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+  }
+  .description {
+    margin-top: 24px;
+    font-size: 18px;
+  }
+  hr {
+    margin-top: 69px;
+  }
+  .img {
+    width: 453px;
+    height: 359px;
+  }
+}

@@ -1,0 +1,33 @@
+@import "../../../styles/variables.scss";
+.cardsList {
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  grid-template-columns: 435px 487px 463px;
+  gap: 8px;
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: $light-background;
+    height: 298px;
+    border-radius: 15px;
+    justify-content: center;
+    &:hover {
+      box-shadow: $box-shadow;
+    }
+  }
+
+  .cardTitle {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 35px;
+    padding-top: 35px;
+  }
+  .cardBody,
+  .cardTitle {
+    padding-left: 26px;
+    padding-right: 47px;
+  }
+}

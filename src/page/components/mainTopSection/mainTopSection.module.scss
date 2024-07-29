@@ -1,0 +1,52 @@
+@import "../../../styles/variables.scss";
+.MainTopSection {
+  position: relative;
+  margin-top: 19px;
+
+  .img {
+    position: relative;
+    z-index: 1000;
+    border-radius: 15px;
+  }
+  .textBlock {
+    position: absolute;
+    z-index: 10000;
+    margin-top: 564px;
+    padding-left: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    font-weight: 900;
+    font-size: 64px;
+    color: $light-background;
+    max-width: 803px;
+    margin-right: 159px;
+  }
+  .button {
+    background-color: $light-background;
+    border-radius: 50px;
+    padding: 15px 71px;
+    font-weight: 700px;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    &:hover {
+      cursor: pointer;
+      box-shadow: $box-shadow;
+    }
+  }
+  .gradient {
+    position: absolute;
+    z-index: 1100;
+    width: 100%;
+    height: 448px;
+    margin-top: 357px;
+    background: linear-gradient(
+      to bottom,
+      rgba(217, 217, 217, 0),
+      rgba(55, 55, 55, 1)
+    );
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,49 @@
+@import "../../../styles/variables.scss";
+
+.connectionSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .title {
+    margin-top: 0;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .img {
+    margin-top: 80px;
+  }
+  .addressBlock {
+    .addressList {
+      .item {
+        display: flex;
+        margin-bottom: 24px;
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+      .itemTextBlock {
+        display: flex;
+        flex-direction: column;
+        margin-left: 36px;
+
+        .itemTitle {
+          margin-bottom: 8px;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        .link {
+          font-size: 16px;
+          color: $black-color;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

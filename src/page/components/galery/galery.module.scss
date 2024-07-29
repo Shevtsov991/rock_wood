@@ -1,0 +1,61 @@
+@import "../../../styles/variables.scss";
+
+.galeryBlock {
+  .title {
+    margin-bottom: 0;
+    margin-top: 102px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .text {
+    font-size: 18px;
+    max-width: 576px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+  }
+  .imagesBlock {
+    display: flex;
+
+    .secondColFoot {
+      display: flex;
+    }
+
+    .imgAndBtn {
+      position: relative;
+      .img {
+        position: relative;
+        z-index: 1000;
+      }
+      .btn {
+        position: absolute;
+        z-index: 10000;
+        bottom: 25px;
+        left: 20px;
+        width: 207px;
+        height: 54px;
+        border-radius: 50px;
+        border: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "inter";
+        font-size: 24px;
+        color: $light-background;
+        padding-left: 22px;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.2);
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.3);
+          cursor: pointer;
+        }
+        span {
+          font-size: 20px;
+          padding: 10px 15px;
+          border: 2px solid rgba(255, 255, 255, 1);
+          border-radius: 50%;
+          margin: 8px 10px 8px 0;
+        }
+      }
+    }
+  }
+}

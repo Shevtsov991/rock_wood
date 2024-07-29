@@ -1,0 +1,48 @@
+@import "../../../styles/variables.scss";
+.orderSection {
+  display: flex;
+  //align-items: center;
+  justify-content: center;
+  margin-top: 102px;
+  .orderForm {
+    display: flex;
+    flex-direction: column;
+    padding-left: 47px;
+    background-color: $light-background;
+    height: 454px;
+    border-radius: 15px 0 0 15px;
+
+    .formTitle {
+      font-size: 48px;
+      font-weight: 700;
+    }
+
+    .name {
+      border-radius: 50px;
+      width: 509px;
+      height: 53px;
+      padding-left: 19px;
+      margin-bottom: 11px;
+    }
+    .tel {
+      border-radius: 50px;
+      width: 509px;
+      height: 53px;
+      padding-left: 20px;
+      margin-bottom: 24px;
+    }
+    .btn {
+      border-radius: 50px;
+      width: 509px;
+      height: 53px;
+      padding-left: 20px;
+      font-size: 18px;
+      background-color: $black-color;
+      color: $light-background;
+      margin-bottom: 24px;
+    }
+  }
+  .img {
+    border-radius: 0 15px 15px 0;
+  }
+}

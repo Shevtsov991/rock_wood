@@ -1,0 +1,93 @@
+@import "../../../styles/variables.scss";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    width: 197px;
+    height: 117px;
+  }
+  ul {
+    list-style-type: none;
+    margin-bottom: 0;
+  }
+
+  .listTitle {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .item {
+    margin-top: 28px;
+
+    a {
+      font-size: 16px;
+      color: $black-color;
+      text-decoration: none;
+    }
+  }
+  .feedBackTitle {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .feedBackText {
+    font-size: 16px;
+  }
+
+  .input {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 50px;
+    width: 365px;
+    height: 48px;
+    margin-right: 16px;
+  }
+  .btn {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 50px;
+    width: 119px;
+    height: 48px;
+    &:hover {
+      cursor: pointer;
+      box-shadow: $box-shadow;
+    }
+  }
+  .formfooter {
+    font-size: 12px;
+  }
+}
+
+.copyrightBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftCulmn {
+  display: flex;
+  flex-direction: column;
+}
+.polycy {
+  margin-top: 6px;
+  color: rgba(158, 158, 158, 1);
+}
+small {
+  font-size: 14px;
+}
+.rightCulmn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .tel {
+    font-size: 24px;
+    color: $black-color;
+    margin-right: 140px;
+  }
+  svg {
+    margin-right: 26px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

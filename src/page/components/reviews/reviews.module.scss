@@ -1,0 +1,48 @@
+.reviewsSection {
+  margin-top: 120px;
+  margin-bottom: 159px;
+  .title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .text {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 59.89px;
+  }
+
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .prevBtn,
+    .nextBtn {
+      border: 3px solid rgba(0, 0, 0, 1);
+      border-radius: 50%;
+      width: 51px;
+      height: 51px;
+    }
+    .prevBtn {
+      margin-right: 35px;
+    }
+    .nextBtn {
+      margin-left: 35px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 390.67px;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      height: 100%;
+    }
+    li {
+      height: 190px;
+    }
+  }
+}
